@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media-query.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -15,12 +16,11 @@
       crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
+    <!-- <header>
 
     <nav>
 
   <div class="toggle-menu">
-    <!-- <div><img src="img/securoty_d.png" alt=""></div> -->
     <input type="checkbox" />
 
     <span></span>
@@ -30,7 +30,6 @@
     <ul class="menu">
       <li><a href="index.html"> Home</a></li>
       <li class="posi"><a href="#"> About </a>
-        <!-- <i class="fas fa-arrow-right fa-1x"></i> -->
       <ul class="menu_sub-menu">
         <li><a class="" href="about-us.html">Our Vision</a></li>
         <li><a class="" href="about-us.html#service">Our Experience</a></li>
@@ -82,10 +81,66 @@
     </lord-icon>
   </div>
 </nav>
-</header>
-<script>
+</header> -->
+
+
+  <header>
+    <nav>
+      <div class="navbar">
+        <i class="fas fa-bars"></i>
+        <div class="logo"><a href="index.html"><img style="width: 80px; height: 80px; margin-bottom: -25px;" src="img/logo-security.png" alt=""></a></div>
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name">Security</span>
+            <i class="fas fa-times"></i>
+          </div>
+          <ul class="menus">
+            <li><a class="line" href="index.html">home</a></li>
+            <li><a class="line" href="#">about</a>
+              <ul class="sub-menu">
+                <li><a class="pnt" href="about-us.html">Our Vision</a></li>
+                <li><a class="pnt" href="about-us.html">Our Experience</a></li>
+                <li><a class="pnt" href="about-us.html">Our Policies</a></li>
+                <li><a class="pnt" href="about.html#OurPricing">Our Prices</a></li>
+                <li><a class="pnt" href="#">Our Accreditations</a></li>
+                <li><a class="pnt" href="about.html#OurTeam">Our Team</a></li>
+                <li><a class="pnt" href="about.html#OurPartners">Our Partners</a></li>
   
-</script>
+              </ul>
+  
+            </li>
+            <li><a class="line" href="#">services</a>
+              <ul class="sub-menu">
+                <li><a class="pnt" href="static-security.html">Static Security</a></li>
+                <li><a class="pnt" href="Mobile Patrolling.html">Mobile Patrolling</a></li>
+                <li><a class="pnt" href="cctv monitoring.html">CCTV Monitoring</a></li>
+                <li><a class="pnt" href="lock-unlock.html">Lock & unlock</a></li>
+                <li><a class="pnt" href="vacant-unit-checks.html">Vacant Unit Checks</a></li>
+                <li><a class="pnt" href="Technology-product.html">Technology Product</a></li>
+                <li><a class="pnt" href="Manned Guading.html">Manned Guarding</a></li>
+                <li><a class="pnt" href="Support and Managment.html">Support & Management</a></li>
+                <li><a class="pnt" href="Event Security.html">Event Security</a></li>
+              </ul>
+            </li>
+  
+            <li><a class="line" href="contact.html">contact us</a></li>
+            <li><a href="#">
+                <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="hover"
+                  colors="primary:#000000,secondary:#c01120" style="width:40px;height:40px">
+                </lord-icon>
+              </a></li>
+            <li><a href="#">
+                <lord-icon src="https://cdn.lordicon.com/slkvcfos.json" trigger="hover"
+                  colors="primary:#000000,secondary:#c01120" style="width:50px;height:50px">
+                </lord-icon>
+              </a></li>
+            <li><a class="contact-btn" href="#"><span><i class="fas fa-phone-alt"></i></span> 020 7946 0020</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
     <section class="slider-temp2">
         <div class="slider__warpper">
           <div class="flex__container flex--pikachu flex--active">
@@ -112,14 +167,12 @@
     
               </div>
             </div>
-            <!-- <div class="flex__item flex__item--right"></div> -->
             
           </div>
 
       </section>
-      <section class="services-sec">
+      <!-- <section class="services-sec">
         <div class="container-circle reload">
-            <!-- <img class="arrow" src="img/svg logo.svg" alt=""> -->
             
             <div class="circTxt" id="shadow"></div>
         
@@ -131,8 +184,16 @@
         <div class="haeding-text">
             <h1>Services</h1>
             <p>our services are best in town</p>
-            <!-- <h2 class="bg-head">SERVICES</h2> -->
         </div>
+    </section> -->
+    <section class="heading-sec">
+
+     <div class="heading-main-title">
+<div class="sub-title">
+      <h3>Best In Town</h3>
+      </div>
+      <h1>Services</h1>
+      </div>
     </section>
     <section class="services">
         <div class="container-services flex-row">
@@ -140,37 +201,55 @@
            
           <div class="serv-cards-wrapper">  
           <div class="serv-card">
+            <lord-icon src="https://cdn.lordicon.com/rruosuro.json" trigger="loop-on-hover"
+              colors="primary:#ffffff,secondary:#ffffff" style="width:150px;height:150px">
+            </lord-icon>
                 <div class="card-text">
-        <h1>Static Sceurity</h1>
-        <p>Our bodyguards are strong men and professionals who served in military forces.Our bodyguards are strong men and professionals who served in military forces.
-
+        <h1>Static Security</h1>
+        <p>Settle a guard house behind your facility and we'll monitor the activity around the house. Settle a guard house behind
+        your facility and we'll monitor the activity around the house.
 </p>
         </div>
-        <div class="buttons">
+                  <a href="#" class="button-sq">Read More</a>
+
+        <!-- <div class="buttons">
             <button class="cta-01"><span>read more</span></button>
-      </div>
+      </div> -->
         </div>
         <div class="serv-card">
+          
+          
+          <lord-icon src="https://cdn.lordicon.com/idxcmsio.json" trigger="loop-on-hover"
+            colors="primary:#ffffff,secondary:#ffffff" style="width:150px;height:150px">
+          </lord-icon>
             <div class="card-text">
+              
                 <h1>Mobile Patrolling </h1>
                 <p>Settle a guard house behind your facility and we'll monitor the activity around the house.
                   Settle a guard house behind your facility and we'll monitor the activity around the house.
                 </p>
             </div>
-            <div class="buttons">
+            <!-- <div class="buttons">
                 <button class="cta-01"><span>read more</span></button>
-          </div>
+          </div> -->
+          <a href="#" class="button-sq">Read More</a>
+          <!-- <button class="button-sq">sadasd</button> -->
         </div>
         <div class="serv-card">
+          <lord-icon src="https://cdn.lordicon.com/tvafngxn.json" trigger="loop-on-hover"
+            colors="primary:#ffffff,secondary:#ffffff" style="width:150px;height:150px">
+          </lord-icon>
             <div class="card-text">
                 <h1>CCTV Monitoring</h1>
                 <p>our strong men and professionals will do 24/7 security surveillance of your house with focus .
 our strong men and professionals will do 24/7 security surveillance of your house with focus .
 </p>
             </div>
-            <div class="buttons">
+            <!-- <div class="buttons">
                 <button class="cta-01"><span>read more</span></button>
-          </div>
+          </div> -->
+                            <a href="#" class="button-sq">Read More</a>
+
         </div>
         </div>
         </div>
@@ -187,9 +266,8 @@ our strong men and professionals will do 24/7 security surveillance of your hous
         </div>
     </section>
     <!-- service section end -->
-    <section class="client-sec rev">
+    <!-- <section class="client-sec rev">
       <div class="container-circle reload">
-        <!--the holders for the text, reuse as desired-->
         <div class="circTxt2" id="shadow"></div>
     
     
@@ -198,9 +276,17 @@ our strong men and professionals will do 24/7 security surveillance of your hous
     
       </div>
       <div class="haeding-text ">
-        <h1>What Our Clients Say</h1>
+        <h1>What Our Clients Say</h1> 
         <p>Read Honest Testimonials of Our Clients</p>
-        <!-- <h2 class="bg-head2">Our Clients Say</h2> -->
+      </div>
+    </section> -->
+    <section class="heading-sec">
+    
+      <div class="heading-main-title">
+        <div class="sub-title">
+          <h3>Read Honest Testimonials of Our Clients</h3>
+        </div>
+        <h1>What Our Clients Say</h1>
       </div>
     </section>
     <section class="our-clients-sec">
@@ -208,33 +294,80 @@ our strong men and professionals will do 24/7 security surveillance of your hous
       <div class="brand-carousel section-padding owl-carousel">
         <div class="single-logo">
           <div class="client-card">
-            <img src="img/Image_38.png" alt="">
+            <img src="img/testimonials-1.jpg" alt="">
             <div class="client-content">
+              <div class="testi-head">
               <h4>What Our Clients Say.</h4>
-              <p>When I saw how these guys prepare themselves to any operation, I realized that it was it! I must hire them! I was
-              scared. Now I am feeling safe because there is always the strongmen team with me and my folks.</p>
+              <div class="stars">
+                <i class="fas fa-star fa-2x"></i>
+                <i class="fas fa-star fa-2x"></i>
+                <i class="fas fa-star fa-2x"></i>
+                <i class="fas fa-star fa-2x"></i>
+                <i class="fas fa-star fa-2x"></i>
+              </div>
+
+
+                                                                      
+              </div>
+              <p><span class="testi-qoute">"</span> I saw how these guys prepare themselves to any operation, I realized that it was it! I must hire them! I was
+              scared. Now I am feeling safe because there is always the strongmen team with me and my folks.<span class="testi-qoute">"</span></p>
+              <div class="testi-client-name">
+                <h3>Jhon Doe</h3>
+                <h5>Founder , Manic0.co</h5>
+              </div>
+            </div>
+          
+    
+          </div>
+        </div>
+        <div class="single-logo">
+          <div class="client-card">
+            <img src="img/testimonials-2.jpg" alt="">
+            <div class="client-content">
+              <div class="testi-head">
+                <h4>What Our Clients Say.</h4>
+                <div class="stars">
+                  <i class="fas fa-star fa-2x"></i>
+                  <i class="fas fa-star fa-2x"></i>
+                  <i class="fas fa-star fa-2x"></i>
+                  <i class="fas fa-star fa-2x"></i>
+                  <i class="fas fa-star fa-2x"></i>
+                </div>
+                </div>
+              <p><span class="testi-qoute">"</span> I saw how these guys prepare themselves to any operation, I realized that it was
+                it! I must hire them! I was
+                scared. Now I am feeling safe because there is always the strongmen team with me and my folks.<span
+                  class="testi-qoute">"</span></p>
+                  <div class="testi-client-name">
+                    <h3>Jhon Doe</h3>
+                    <h5>Founder , Manic0.co</h5>
+                  </div>
             </div>
     
           </div>
         </div>
         <div class="single-logo">
           <div class="client-card">
-            <img src="img/Image_39.png" alt="">
+            <img src="img/client-tesi.jpg" alt="">
             <div class="client-content">
-              <h4>What Our Clients Say.</h4>
-              <p>When I saw how these guys prepare themselves to any operation, I realized that it was it! I must hire them! I was
-              scared. Now I am feeling safe because there is always the strongmen team with me and my folks.</p>
-            </div>
-    
-          </div>
-        </div>
-        <div class="single-logo">
-          <div class="client-card">
-            <img src="img/Image_40.png" alt="">
-            <div class="client-content">
-              <h4>What Our Clients Say.</h4>
-              <p> When I saw how these guys prepare themselves to any operation, I realized that it was it! I must hire them! I was
-              scared. Now I am feeling safe because there is always the strongmen team with me and my folks.</p>
+              <div class="testi-head">
+                <h4>What Our Clients Say.</h4>
+                <div class="stars">
+                  <i class="fas fa-star fa-2x"></i>
+                  <i class="fas fa-star fa-2x"></i>
+                  <i class="fas fa-star fa-2x"></i>
+                  <i class="fas fa-star fa-2x"></i>
+                  <i class="fas fa-star fa-2x"></i>
+                </div>
+                </div>
+              <p><span class="testi-qoute">"</span> I saw how these guys prepare themselves to any operation, I realized that it was
+                it! I must hire them! I was
+                scared. Now I am feeling safe because there is always the strongmen team with me and my folks.<span
+                  class="testi-qoute">"</span></p>
+                  <div class="testi-client-name">
+                    <h3>Jhon Doe</h3>
+                    <h5>Founder , Manic0.co</h5>
+                  </div>
             </div>
     
           </div>
@@ -249,9 +382,8 @@ our strong men and professionals will do 24/7 security surveillance of your hous
     </section>
     <!-- pricing section -->
     <!-- heading -->
-    <section class="services-sec">
+    <!-- <section class="services-sec">
       <div class="container-circle reload">
-        <!--the holders for the text, reuse as desired-->
         <div class="circTxt3" id="shadow"></div>
     
     
@@ -262,79 +394,93 @@ our strong men and professionals will do 24/7 security surveillance of your hous
       <div class="haeding-text">
         <h1>Our Pricing Table</h1>
         <p>our prices can let you secure your business and life with no large expenses </p>
-        <!-- <h2 class="bg-head3">PRICING</h2> -->
+      </div>
+    </section> -->
+    <section class="heading-sec">
+    
+      <div class="heading-main-title">
+        <div class="sub-title">
+          <h3>Our Prices are Flexible</h3>
+        </div>
+        <h1>Our Prices</h1>
       </div>
     </section>
     <!-- heading end -->
     
-    <section class="pricing-sec">
-      <div class="container-pricing">
-        <div class="price-card-wrapper">
-          <div class="price-card">
-            <h1>
-              STARTER PACK
-            </h1>
-            <div class="price-content">
-              <h2>For Small Business</h2>
-              <ul>
-                <li>02 cctc cameras</li>
-                <li>01 security guard</li>
-                <li>No Physsical Protection</li>
-                <li>No Security With Dogs</li>
-                <li>No Changes on Complain</li>
-              </ul>
-                          <div class="buttons">
+  <section class="pricing-sec">
+    <div class="container-pricing">
+      <div class="price-card-wrapper">
+        <div class="price-card-c">
+          <h1>
+            STARTER PACK
+          </h1>
+          <div class="price-content-c">
+            <h2>For Small Business</h2>
+            <ul>
+              <li><i class="fas fa-check"></i> cctc cameras</li>
+              <li><i class="fas fa-check"></i>01 security guard</li>
+              <li><i class="fas fa-times"> </i>No Physsical Protection</li>
+              <li><i class="fas fa-times"> </i>No Security With Dogs</li>
+              <li><i class="fas fa-times"> </i>No Changes on Complain</li>
+            </ul>
+            <!-- <div class="buttons">
+                              <button class="cta-01"><span>Get quote</span></button>
+                            </div> -->
+  
+  
+          </div>
+          <a href="#" class="button-sq-red">Get Quote </a>
+        </div>
+        <div class="price-card">
+          <h1>
+            INTERMEDIATE
+          </h1>
+          <div class="price-content">
+            <h2>For Running Business</h2>
+            <ul>
+              <li><i class="fas fa-check"> </i>02 cctc cameras</li>
+              <li><i class="fas fa-check"> </i>01 security guard</li>
+              <li><i class="fas fa-check"> </i>Physsical Protection</li>
+              <li><i class="fas fa-times"> </i>No Security With Dogs</li>
+              <li><i class="fas fa-times"> </i>No Changes on Complain</li>
+            </ul>
+            <!-- <div class="buttons">
+                              <button class="cta-01"><span>Get quote</button>
+                            </div> -->
+          </div>
+          <a href="#" class="button-sq">Get Quote </a>
+  
+        </div>
+        <div class="price-card-c">
+          <h1>
+            PROFESSIONAL
+          </h1>
+          <div class="price-content-c">
+            <h2>For Professional Business</h2>
+            <ul>
+              <li><i class="fas fa-check"> </i>02 cctc cameras</li>
+              <li><i class="fas fa-check"> </i>01 security guard</li>
+              <li><i class="fas fa-check"> </i>Physsical Protection</li>
+              <li><i class="fas fa-check"> </i>Security With Dogs</li>
+              <li><i class="fas fa-check"> </i>Changes on Complain</li>
+            </ul>
+            <!-- <div class="buttons">
                             <button class="cta-01"><span>Get quote</span></button>
-                          </div>
-
-            </div>
+                          </div> -->
+  
           </div>
-          <div class="price-card">
-            <h1>
-              INTERMEDIATE
-            </h1>
-            <div class="price-content">
-              <h2>For Running Business</h2>
-              <ul>
-                <li>02 cctc cameras</li>
-                <li>01 security guard</li>
-                <li> Physsical Protection</li>
-                <li>No Security With Dogs</li>
-                <li>No Changes on Complain</li>
-              </ul>
-                          <div class="buttons">
-                            <button class="cta-01"><span>Get quote</button>
-                          </div>
-</div>
-          </div>
-          <div class="price-card">
-            <h1>
-              PROFESSIONAL
-            </h1>
-            <div class="price-content">
-              <h2>For Professional Business</h2>
-              <ul>
-                <li>02 cctc cameras</li>
-                <li>01 security guard</li>
-                <li>Physsical Protection</li>
-                <li>Security With Dogs</li>
-                <li>Changes on Complain</li>
-              </ul>
-                        <div class="buttons">
-                          <button class="cta-01"><span>Get quote</span></button>
-                        </div>
-
-            </div>
-          </div>
-        
-    
+          <a href="#" class="button-sq-red">Get Quote </a>
+  
+        </div>
+  
+  
       </div>
-      </div>
-    
-    </section>
+    </div>
+  
+  </section>
     <!-- our guards section -->
     <!-- heading -->
-    <section class="client-sec rev">
+    <!-- <section class="client-sec rev">
       <div class="container-circle reload">
 
         <div class="circTxt4" id="shadow"></div>
@@ -343,13 +489,21 @@ our strong men and professionals will do 24/7 security surveillance of your hous
       <div class="haeding-text ">
         <h1>Our Guards</h1>
         <p>Team that you can Rely on</p>
-        <!-- <h2 class="bg-head">GUARDS</h2> -->
+      </div>
+    </section> -->
+    <section class="heading-sec">
+    
+      <div class="heading-main-title">
+        <div class="sub-title">
+          <h3>The Thoughest Guards</h3>
+        </div>
+        <h1>Our Guards</h1>
       </div>
     </section>
 
     <!-- section start -->
     
-    <section class="guards-sec">
+    <!-- <section class="guards-sec">
       <div class="container-guards">   
         <div class="cards_g-wrap">
           <div class="g-col">
@@ -388,54 +542,73 @@ our strong men and professionals will do 24/7 security surveillance of your hous
             </div>
             
           </div>
-          <!-- <div class="g-col2">
-            <div class="content-guards">
-              
-              
-              <video width="600px" height="800px" loop muted autoplay  class="fullscreen-bg__video" playsinline>
-                <source src="img/pexels-treedeo-footage-7255101.mp4" type="video/webm">
-            </video>
-               
-                </video>
-            </div>
-          </div> -->
-          <!-- <div class="g-col">
-            <div class="g-card">
-            <div class="guard-img">
-              <img src="img/02.jpg" alt="">
-                            <h2 class="head">Bianca B.Rooney.</h2>
-                            <p class="para">Head of Security</p>
-            </div>
-            </div>
-            <div class="g-card">
-            <div class="guard-img">
-              <img src="img/03.jpg" alt="">
-                            <h2 class="head">Bianca B.Rooney.</h2>
-                            <p class="para">Head of Security</p>
-            </div>
-            </div>
-          </div> -->
+       
         </div>
       </div>
 
-    </section>
+    </section> -->
 
+    <section class="guard-section">
+      <div class="container-main">
+        <div class="guard-cards-wrapper">
+    
+    
+          <div class="guard-card bg">
+            <div class="g-card-content">
+              <h2 class="guard-card_title"> Bianca b.Rooney</h2>
+              <p class="g-card-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                animi laudantium sint pariatur doloribus tempora!
+              </p>
+              <!-- <a href="#" class="button-g">Learn More</a> -->
+              <!-- <a href="#" class="button-sq-red">Learn More </a> -->
+    
+            </div>
+          </div>
+          <div class="guard-card bg1">
+            <div class="g-card-content">
+              <h2 class="guard-card_title"> Bianca b.Rooney</h2>
+              <p class="g-card-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                animi laudantium sint pariatur doloribus tempora!
+              </p>
+              <!-- <a href="#" class="button-g">Learn More</a> -->
+              <!-- <a href="#" class="button-sq-red">Learn More </a> -->
+    
+            </div>
+          </div>
+          <div class="guard-card bg2">
+            <div class="g-card-content">
+              <h2 class="guard-card_title"> Bianca b.Rooney</h2>
+              <p class="g-card-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                animi laudantium sint pariatur doloribus tempora!
+              </p>
+              <!-- <a href="#" class="button-g">Learn More</a> -->
+              <!-- <a href="#" class="button-sq-red">Learn More </a> -->
+    
+            </div>
+          </div>
+    
+    
+    
+    
+    
+    
+    
+        </div>
+      </div>
+    </section>
     <!-- latest news section -->
 
-    <section class="services-sec">
-      <div class="container-circle reload">
-        <!--the holders for the text, reuse as desired-->
-        <div class="circTxt5" id="shadow"></div>
+    </section> -->
+    <section class="heading-sec">
     
-    
-    
-    
-    
-      </div>
-      <div class="haeding-text">
+      <div class="heading-main-title">
+        <div class="sub-title">
+          <h3>Daily Updates</h3>
+        </div>
         <h1>Latest News</h1>
-        <p>Stay upto date with our latest news</p>
-        <!-- <h2 class="bg-head3">News</h2> -->
       </div>
     </section>
     <!-- news section start -->
@@ -445,31 +618,31 @@ our strong men and professionals will do 24/7 security surveillance of your hous
           <div class="news-card">
             
             <img src="img/news1.jpg" alt="">
-            
+            <div class="news-card-content">
             <h2>CCTV Installation Tricks.</h2>
             <p>If you are able to install a camera, there is still a few tricks to pay extra attention.</p>
-              <div class="buttons">
-                <button class="cta-01"><span>read more</span></button>
+                                <a href="#" class="button-sq-red">Read More</a>
+
               </div>
 
           </div>
           <div class="news-card">
               <img src="img/news2.jpg" alt="">
-            
+             <div class="news-card-content">
             <h2>How To Monitor Your Facility.</h2>
             <p>Hire a special man who knows how to deal with this. Or read this post.</p>
-              <div class="buttons">
-                <button class="cta-01"><span>read more</span></button>
+                                              <a href="#" class="button-sq-red">Read More</a>
+
               </div>
           </div>
           <div class="news-card">
             
               <img src="img/news3.jpg" alt="">
-            
+     <div class="news-card-content">
             <h2>Outdoor Security Process.</h2>
             <p>Working with different clients, we collected rich experience and want to share it with you..</p>
-              <div class="buttons">
-                <button class="cta-01"><span>read more</span></button>
+                                              <a href="#" class="button-sq-red">Read More</a>
+
               </div>
           </div>
            
@@ -481,19 +654,16 @@ our strong men and professionals will do 24/7 security surveillance of your hous
 
     <!-- our program -->
     <!-- heading -->
-    <section class="client-sec rev">
-      <div class="container-circle reload">
-    
-        <div class="circTxt6" id="shadow"></div>
-    
-      </div>
-      <div class="haeding-text ">
-        <h1>Our Programs</h1>
-        <p>we guareantee your safety 24/7</p>
-        <!-- <h2 class="bg-head">OUR PROGRAMS</h2> -->
-      </div>
-    </section>
-<section class="our-programs">
+<section class="heading-sec">
+
+  <div class="heading-main-title">
+    <div class="sub-title">
+      <h3>Govt Affiliate Programs</h3>
+    </div>
+    <h1>Our Programs</h1>
+  </div>
+</section>
+<!-- <section class="our-programs">
   <div class="container-programs">
     <div class="content-programs">
       <div class="number"><h1 class="p-num">1</h1></div>
@@ -524,25 +694,80 @@ our strong men and professionals will do 24/7 security surveillance of your hous
       </div>
     </div>
   </div>
-</section>
+</section> -->
+<section class="our-programs-section">
+  <div class="container-main">
+    <div class="programs-cards-wrapper">
+      <!-- cards -->
+      <div class="program-card">
+        <div class="program-card-img">
+          <img src="img/news2.jpg" alt="">
+          <div class="icon-min">
+          <lord-icon src="https://cdn.lordicon.com/mtdulhdc.json" trigger="loop" colors="primary:#000000,secondary:#c01120"
+            style="width:50px;height:50px">
+          </lord-icon>
+            </lord-icon>
+          </div>
+        </div>
+        <div class="program-card-content">
+          <h2 class="program-card_title"> Cultural Awareness Show</h2>
+          <p class="program-card-body">
+            Cultural Awareness is critical for any workforce that seeks to yield positive outcomes. Watch this video to learn about
+            cultural awareness in the workplace
+          </p>
+                                  <a href="#" class="button-sq">Read More</a>
 
-<section class="services-sec">
-  <div class="container-circle reload">
-    <!--the holders for the text, reuse as desired-->
-    <div class="circTxt7" id="shadow"></div>
-
-
-
-
-
+    </div>
   </div>
-  <div class="haeding-text ">
-    
+  <div class="program-card">
+    <div class="program-card-img">
+    <img src="img/news1.jpg" alt="">
+    <div class="icon-min">
+      <lord-icon src="https://cdn.lordicon.com/vcoyflbj.json" trigger="loop" colors="primary:#000000,secondary:#c01120"
+        style="width:50px;height:50px">
+      </lord-icon>
+      </lord-icon>
+    </div>
+    </div>
+    <div class="program-card-content">
+      <h2 class="program-card_title">Military Virtual Training</h2>
+      <p class="program-card-body">
+        Watch this video to see one of the Department of Defense's approaches to building cultural awareness and reducing risk
+        in culturally diverse environments.
+      </p>
+      <a href="#" class="button-sq">Read More</a>
+  
+    </div>
+  </div>
+  <div class="program-card">
+    <div class="program-card-img">
+      <img src="img/news3.jpg" alt="">
+      <div class="icon-min">
+        <lord-icon src="https://cdn.lordicon.com/igpsgesd.json" trigger="loop" colors="primary:#000000,secondary:#c01120"
+          style="width:50px;height:50px">
+        </lord-icon>
+        </lord-icon>
+      </div>
+    </div>
+    <div class="program-card-content">
+      <h2 class="program-card_title">Insider Threat Resilience</h2>
+      <p class="program-card-body">
+        Resilience allows individuals to bounce back from setbacks and stressful situations. Without this quality, some people
+        may develop increased risks  
+      </p>
+      <a href="#" class="button-sq">Read More</a>
+  
+    </div>
+  </div>
+  <!-- cards end -->
+</section>
+<section class="heading-sec">
+
+  <div class="heading-main-title">
+    <div class="sub-title">
+      <h3>We are The best</h3>
+    </div>
     <h1>About Us</h1>
-    <p>Security was founded by a squad of retired soldiers </p>
-    
-    <!-- <h2 class="bg-head3">About us</h2> -->
-    
   </div>
 </section>
 <section class="about-sec">
@@ -555,25 +780,24 @@ our strong men and professionals will do 24/7 security surveillance of your hous
         <h1>Commited to your business</h1>
         <p>Given the complexity of forming a team including consciously or unconsciously developing team interaction norms and
         guidelines, ending up with an effective, functioning team is downright amazing.</p>
-      <div class="buttons">
+      <!-- <div class="buttons">
         <button class="cta-01"><span>read more</span></button>
-      </div>
+      </div> -->
+                        <a href="#" class="button-sq-red">Read More</a>
+
       </div>
     </div>
     
   </div>
 </section>
 <!-- accrediations -->
-<section class="client-sec rev">
-  <div class="container-circle reload">
+<section class="heading-sec">
 
-    <div class="circTxt8" id="shadow"></div>
-
-  </div>
-  <div class="haeding-text ">
-    <h1>Our Accreditations</h1>
-    <p>we guareantee you that we are certified by the goberment</p>
-    <!-- <h2 class="bg-head responsive">ACCREDITATIONS</h2> -->
+  <div class="heading-main-title">
+    <div class="sub-title">
+      <h3>We are Verified by Govt</h3>
+    </div>
+    <h1>Accreditation</h1>
   </div>
 </section>
 <section class="accrediations-sec">

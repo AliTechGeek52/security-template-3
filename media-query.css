@@ -411,8 +411,9 @@
   }
 
   .client-card img {
-    width: 150px;
-    height: 200px;
+    width: 50px;
+    height: 100px;
+    margin-top: 30px;
   }
   .client-content {
     margin: 10px 20px;
@@ -420,7 +421,7 @@
   .client-content p {
     padding: 1px;
     font-size: 13px;
-    text-align: center;
+    /* text-align: center; */
     color: var(--clr-white-smoke);
   }
   .client-content h4 {
@@ -430,8 +431,7 @@
   background-color: var(--clr-primary);
 } */
   .single-logo {
-    background-size: 10%;
-    background-position-x: 90px;
+    background-size: 0%;
   }
   .container-circle {
     display: none;
@@ -464,9 +464,16 @@
     width: 270px;
     margin: 70px 0;
   }
+  .price-card-c {
+    width: 270px;
+    margin: 70px 0;
+  }
   .price-card h1 {
     font-size: 50px;
     /* height: 610px; */
+  }
+  .stars {
+    font-size: 6px;
   }
 
   .price-card h1 {
@@ -684,7 +691,7 @@
     text-align: center;
   }
   .vision-img img {
-    width: 350px;
+    width: 268px;
     align-items: center;
   }
   .service-card-wrap {
@@ -707,6 +714,433 @@
   }
   .br {
     border-top-right-radius: 0px;
+  }
+  .policy_top {
+    flex-direction: column;
+  }
+  .policy-content h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .policy-content p {
+    font-size: 16px;
+    text-align: center;
+    padding-right: 0px;
+  }
+  .policyimg img {
+    width: 300px;
+    height: 200px;
+  }
+  .policyimg {
+    margin: 30px 0px;
+  }
+  .policy_bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+  .policy-i-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* ===================================================================contact page ==================================================== */
+  .feedback-wrap {
+    flex-direction: column-reverse;
+  }
+  .form-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-info {
+    margin-right: 0px;
+  }
+  .feed-img img {
+    width: 300px;
+    height: 180px;
+  }
+  .feed-content {
+    padding: 40px 0px;
+  }
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .flex2 {
+    flex-direction: column;
+  }
+  .container-services {
+    padding-left: 0px;
+  }
+  .text--big {
+    text-align: center;
+    font-size: 35px;
+  }
+  .text--sub {
+    font-size: 16px;
+  }
+  .content-serv-img-inner {
+    padding: 100px 40px;
+  }
+  .content-serv-img-inner h1 {
+    font-size: 25px;
+  }
+  .content-serv-img-inner h3 {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 0;
+  }
+  .content-serv-img-inner p {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+
+  .serv-img-content {
+    max-width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+  }
+  .serv-cards-wrapper {
+    flex-direction: column;
+  }
+  .serv-card {
+    width: 300px;
+    padding: 50px 25px;
+  }
+  /* .bg-head3 {
+    font-size: 30px;
+  }
+  .bg-head2 {
+    font-size: 30px;
+  }
+  .bg-head {
+    font-size: 30px;
+  } */
+  .haeding-text h1 {
+    font-size: 30px;
+  }
+  .haeding-text p {
+    font-size: 14px;
+  }
+  /* services sec */
+  .services-sec {
+    justify-content: center;
+  }
+
+  .flex-row {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .client-sec {
+    height: 400px;
+    background-color: var(--clr-primary);
+    display: flex;
+    justify-content: center;
+    padding: 60px 30px;
+  }
+  .bg-head2 {
+    letter-spacing: 9px;
+    font-size: 40px;
+    margin-top: -10px;
+    /* margin-left: -50px; */
+  }
+
+  .client-card {
+    /* padding: 0 300px; */
+    margin: 0 10px;
+    width: 350px;
+    display: flex;
+  }
+
+  .client-card img {
+    width: 50px;
+    height: 100px;
+    margin-top: 30px;
+  }
+  .client-content {
+    margin: 10px 20px;
+  }
+  .client-content p {
+    padding: 1px;
+    font-size: 13px;
+    /* text-align: center; */
+    color: var(--clr-white-smoke);
+  }
+  .client-content h4 {
+    font-size: 20px;
+  }
+  /* .client-content {
+  background-color: var(--clr-primary);
+} */
+  .single-logo {
+    background-size: 0%;
+  }
+  .container-circle {
+    display: none;
+  }
+  .haeding-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card-text h1 {
+    /* writing-mode: vertical-rl;
+    transform: rotate(180deg); */
+    font-size: 35px;
+    padding: 0px 10px;
+    color: whitesmoke;
+  }
+  .card-text p {
+    font-size: 15px;
+    padding: 25px 10px;
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+  }
+
+  /* price */
+  .price-card-wrapper {
+    align-items: center;
+    flex-direction: column;
+  }
+  .price-card {
+    width: 270px;
+    margin: 70px 0;
+  }
+
+  .price-card h1 {
+    font-size: 50px;
+    /* height: 610px; */
+  }
+  .stars {
+    font-size: 6px;
+  }
+
+  .price-card h1 {
+    font-size: 28px;
+    /* height: 500px; */
+  }
+  .price-content h2 {
+    font-size: 27px;
+  }
+  .price-content ul {
+    font-size: 16px;
+  }
+
+  /* guards */
+  .cards_g-wrap {
+    flex-direction: column;
+  }
+
+  .guard-img {
+    margin: 30px 30px;
+  }
+  .news-card::after {
+    left: 26px;
+    width: 300px;
+  }
+
+  .g-col {
+    flex-direction: column;
+  }
+  .g-col img {
+    width: 250px;
+    height: 250px;
+  }
+  .container-guards {
+    width: 100%;
+    align-items: center;
+  }
+
+  /* our programs */
+  .container-programs {
+    padding: 30px 6px;
+  }
+  .p-num {
+    font-size: 210px;
+
+    margin: 0px;
+  }
+  .desc-program h1 {
+    font-size: 40px;
+  }
+  .desc-program {
+    padding: 53px 0;
+  }
+  .desc-program p {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .desc-program h1 {
+    font-size: 20px;
+  }
+  .desc-program p {
+    font-size: 11px;
+  }
+
+  .right-pad {
+    padding-right: 20px;
+  }
+
+  /* about us */
+
+  .heading-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heading-flex p {
+    padding-left: 10px;
+  }
+  .about-container {
+    padding: 30px 16px;
+  }
+  .about-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .ab-img img {
+    width: 30vw;
+  }
+  .ab-img img {
+    padding-top: 1px;
+  }
+  .ab-img img {
+    width: 300px;
+  }
+  .about-content {
+    background-position-x: right;
+    background-size: 90px;
+    display: flex;
+
+    padding-left: 34px;
+    padding-right: 0px;
+  }
+  .services-sec {
+    padding: 20px 25px;
+    /* margin: 100px 0; */
+  }
+
+  /* .client-card {
+    width: 350px;
+  } */
+  .client-content p {
+    padding: 1px;
+    font-size: 11px;
+  }
+  .left-pad {
+    padding-left: 20px;
+  }
+
+  /* news */
+  .news-card img {
+    width: 250px;
+  }
+  .contain-news {
+    padding: 24px 0px;
+  }
+  .news-card h2 {
+    font-size: 25px;
+  }
+  .news-card p {
+    font-size: 15px;
+  }
+  .bg-head {
+    letter-spacing: 2px;
+    font-size: 32px;
+    margin-left: 0px;
+  }
+  /* our programs */
+  .container-programs {
+    padding: 30px 6px;
+  }
+  .p-num {
+    font-size: 210px;
+
+    margin: 0px;
+  }
+  .desc-program h1 {
+    font-size: 40px;
+  }
+  .desc-program {
+    padding: 53px 0;
+  }
+  .desc-program p {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .desc-program h1 {
+    font-size: 20px;
+  }
+  .desc-program p {
+    font-size: 11px;
+  }
+
+  .right-pad {
+    padding-right: 20px;
+  }
+  .ncards-wrapper {
+    flex-direction: column;
+  }
+
+  /* accrediations */
+  .haeding-text {
+    align-items: center;
+  }
+  .a-card img {
+    width: 150px;
+  }
+  .a-card {
+    padding: 40px 0;
+  }
+  .arow {
+    flex-wrap: wrap;
+  }
+  .g-card {
+    padding: 30px 0px;
+    margin: 50px 0px;
+  }
+  /* ============================================================================================== ABOUT PAGE MEDIA QUERY ================================================================= */
+
+  .container-main {
+    padding: 30px 127px !important;
+  }
+  .vision-wrap {
+    flex-direction: column;
+  }
+  .heading-main-v2 h1 {
+    font-size: 40px !important;
+    text-align: center;
+  }
+  .heading-main-v2 p {
+    font-size: 15px !important;
+    text-align: center;
+  }
+  .heading-main-v3 h1 {
+    font-size: 40px !important;
+    text-align: center;
+  }
+  .heading-main-v3 p {
+    font-size: 15px !important;
+    text-align: center;
+  }
+  .pragraph-vision p {
+    font-size: 16px !important;
+    text-align: center;
+  }
+  .vision-img img {
+    width: 350px;
+    align-items: center;
+  }
+  .service-card-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    margin: 30px 0px;
   }
   .policy_top {
     flex-direction: column;

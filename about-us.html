@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="skin.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="media-query.css">
+    <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
@@ -22,75 +23,63 @@
 <body>
     <!-- navigation -->
     <header>
-
         <nav>
-
-            <div class="toggle-menu">
-                <!-- <div><img src="img/securoty_d.png" alt=""></div> -->
-                <input type="checkbox" />
-
-                <span></span>
-                <span></span>
-                <span></span>
-
-                <ul class="menu">
-                    <li><a href="index.html"> Home</a></li>
-                    <li class="posi"><a href="#"> About </a>
-                        <!-- <i class="fas fa-arrow-right fa-1x"></i> -->
-                        <ul class="menu_sub-menu">
-                            <li><a class="" href="about-us.html#vision">Our Vision</a></li>
-                            <li><a class="" href="about-us.html#service">Our Experience</a></li>
-                            <li><a class="" href="about-us.html#policies">Our Policies</a></li>
-                            <li><a class="" href="about-us.html#prices">Our Prices</a></li>
-                            <li><a class="" href="about-us.html#accred">Our Accreditations</a></li>
-                            <li><a class="" href="about-us.html#team">Our Team</a></li>
-                            <li><a class="" href="about-us.html#partners">Our Partners</a></li>
-                        </ul>
-                    </li>
-                    <li class="posi"><a href="#"> Services</a>
-                        <ul class="menu_sub-menu">
-                            <li><a class="" href="static-security.html">Static Security</a></li>
-                            <li><a class="" href="Mobile Patrolling.html">Mobile Patrolling</a></li>
-                            <li><a class="" href="cctv monitoring.html">CCTV Monitoring</a></li>
-                            <li><a class="" href="lock-unlock.html">Lock & unlock</a></li>
-                            <li><a class="" href="vacant-unit-checks.html">Vacant Unit Checks</a></li>
-                            <li><a class="" href="Technology-products.html">Technology Product</a></li>
-                            <li><a class="" href="Manned Guading.html">Manned Guarding</a></li>
-                            <li><a class="" href="Support and Managment.html">Support & Management</a></li>
-                            <li><a class="" href="Event Security.html">Event Security</a></li>
-                            <li><a class="" href="Guard House.html">Guard House</a></li>
-                            <li><a class="" href="Surveillance.html">24/7 Surveillance</a></li>
-                        </ul>
-                    </li>
-                    <li class="posi"><a href="#"> Sectors</a>
-                        <ul class="menu_sub-menu">
-                            <li><a class="" href="construction.html">Construction</a></li>
-                            <li><a class="" href="corporate-sector.html">Corporate</a></li>
-                            <li><a class="" href="industrial-sector.html">Industrial</a></li>
-                            <li><a class="" href="retail-sector.html">Retail</a></li>
-                            <li><a class="" href="logistics-sector.html">Logistics</a></li>
-                            <li><a class="" href="property-management-sector.html">Property Management</a></li>
-
-                        </ul>
-                    </li>
-                    <li><a href="contact.html"> Contact </a></li>
-                </ul>
+            <div class="navbar">
+                <i class="fas fa-bars"></i>
+                <div class="logo"><a href="index.html"><img style="width: 80px; height: 80px; margin-bottom: -25px;"
+                            src="img/logo-security.png" alt=""></a></div>
+                <div class="nav-links">
+                    <div class="sidebar-logo">
+                        <span class="logo-name">Security</span>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <ul class="menus">
+                        <li><a class="line" href="index.html">home</a></li>
+                        <li><a class="line" href="#">about</a>
+                            <ul class="sub-menu">
+                                <li><a class="pnt" href="about-us.html">Our Vision</a></li>
+                                <li><a class="pnt" href="about-us.html">Our Experience</a></li>
+                                <li><a class="pnt" href="about-us.html">Our Policies</a></li>
+                                <li><a class="pnt" href="about.html#OurPricing">Our Prices</a></li>
+                                <li><a class="pnt" href="#">Our Accreditations</a></li>
+                                <li><a class="pnt" href="about.html#OurTeam">Our Team</a></li>
+                                <li><a class="pnt" href="about.html#OurPartners">Our Partners</a></li>
+    
+                            </ul>
+    
+                        </li>
+                        <li><a class="line" href="#">services</a>
+                            <ul class="sub-menu">
+                                <li><a class="pnt" href="static-security.html">Static Security</a></li>
+                                <li><a class="pnt" href="Mobile Patrolling.html">Mobile Patrolling</a></li>
+                                <li><a class="pnt" href="cctv monitoring.html">CCTV Monitoring</a></li>
+                                <li><a class="pnt" href="lock-unlock.html">Lock & unlock</a></li>
+                                <li><a class="pnt" href="vacant-unit-checks.html">Vacant Unit Checks</a></li>
+                                <li><a class="pnt" href="Technology-product.html">Technology Product</a></li>
+                                <li><a class="pnt" href="Manned Guading.html">Manned Guarding</a></li>
+                                <li><a class="pnt" href="Support and Managment.html">Support & Management</a></li>
+                                <li><a class="pnt" href="Event Security.html">Event Security</a></li>
+                            </ul>
+                        </li>
+    
+                        <li><a class="line" href="contact.html">contact us</a></li>
+                        <li><a href="#">
+                                <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="hover"
+                                    colors="primary:#000000,secondary:#c01120" style="width:40px;height:40px">
+                                </lord-icon>
+                            </a></li>
+                        <li><a href="#">
+                                <lord-icon src="https://cdn.lordicon.com/slkvcfos.json" trigger="hover"
+                                    colors="primary:#000000,secondary:#c01120" style="width:50px;height:50px">
+                                </lord-icon>
+                            </a></li>
+                        <li><a class="contact-btn" href="#"><span><i class="fas fa-phone-alt"></i></span> 020 7946 0020</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="logo-top">
-                <a href="index.html">
-                    <img style="width: 100px; height: 100px;" src="img/securoty_d_1.png" alt="">
-                </a>
-            </div>
-            <div class="head-icons">
-                <lord-icon src="https://cdn.lordicon.com/cgwdruiv.json" trigger="loop" colors="primary:#ebebeb,secondary:#ebebeb"
-                    style="width:60px;height:60px">
-                </lord-icon>
-                <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="loop" colors="primary:#ebebeb,secondary:#ebebeb"
-                    style="width:60px;height:60px">
-                </lord-icon>
-            </div>
-            </nav>
-            </header>
+        </nav>
+    </header>
     <!-- nav / header end -->
     <!-- --------------------------------ABOUT PAGE main content--------------------------------------- -->
 <!-- page header -->
@@ -99,7 +88,7 @@
         <h1>About Us</h1>
         <div class="dash"></div>
     </div>
-    <img src="img/banners/about_us.jpg" alt="">
+    <img src="img/gPeonv.jpg" alt="">
 </section>
 <!-- section our vision -->
 <section class="vision-sec">
@@ -109,15 +98,21 @@
     <div class="container-main">
         <div class="vision-wrap">
             <div class="content-vision">
-                <div class="heading-main-v2">
-                    <h1>Our Vision</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, praesentium.</p>
+                <section class="heading-sec">
 
-                </div>
+                    <div class="heading2-main-title">
+               <div class="sub-title2">
+                     <h3>Best In Town</h3>
+                     </div>
+                     <h1>VISION</h1>
+                     </div>
+                   </section>
                 <div class="pragraph-vision">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ratione, officia eaque quos cum unde error id sequi nam minima. Fuga, perspiciatis unde.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ratione, officia eaque quos cum unde error id sequi nam minima. Fuga, perspiciatis unde.</p>
+                    <p> We are a residential and commercial security provider and introducing all types of the most easiest security systems for give smart security.</p>
+                    <p>Latest technology with security solutions to provide you the high level of protection security in your home and business also.</p>
                 </div>
+               
+
             </div>
             <div class="vision-img">
                 <img src="img/annie-spratt-QckxruozjRg-unsplash.jpg" alt="">
@@ -128,17 +123,21 @@
 
 <section class="about_our-services">
     <div class="container-main">
-        <div class="heading-main-v2 a-right">
-            <h1>Our Services</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, praesentium.</p>
-        
-        </div>
+        <section class="heading-sec">
+
+            <div class="heading-main-title">
+       <div class="sub-title">
+             <h3>Best In Town</h3>
+             </div>
+             <h1>SERVICES</h1>
+             </div>
+           </section>
 
 
         <div class="service-card-wrap">
            <div class="box bl">
             
-            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop" colors="primary:#0b131a,secondary:#747474"
+            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop" colors="primary:#c01120,secondary:var(--clr-secondary)"
                 style="width:250px;height:250px">
             </lord-icon>
             <div class="box_content-hover">
@@ -148,7 +147,7 @@
            </div>
         <div class="box">
         
-            <lord-icon src="https://cdn.lordicon.com/usjxhgom.json" trigger="loop" colors="primary:#0b131a,secondary:#747474"
+            <lord-icon src="https://cdn.lordicon.com/usjxhgom.json" trigger="loop" colors="primary:#c01120,secondary:var(--clr-secondary)"
                 style="width:250px;height:250px">
             </lord-icon>
             <div class="box_content-hover">
@@ -157,7 +156,7 @@
         </div>
         <div class="box br">
         
-            <lord-icon src="https://cdn.lordicon.com/gqzfzudq.json" trigger="loop" colors="primary:#0b131a,secondary:#747474"
+            <lord-icon src="https://cdn.lordicon.com/gqzfzudq.json" trigger="loop" colors="primary:#c01120,secondary:var(--clr-secondary)"
                 style="width:250px;height:250px">
             </lord-icon>
             <div class="box_content-hover">
@@ -169,7 +168,7 @@
             <div class="box bbl">
         
                 <lord-icon src="https://cdn.lordicon.com/tvafngxn.json" trigger="loop"
-                    colors="primary:#0b131a,secondary:#747474" style="width:250px;height:250px">
+                    colors="primary:#c01120,secondary:var(--clr-secondary)" style="width:250px;height:250px">
                 </lord-icon>
                 <div class="box_content-hover">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, deleniti?lorem200</p>
@@ -179,7 +178,7 @@
             <div class="box">
         
                 <lord-icon src="https://cdn.lordicon.com/uneninia.json" trigger="loop"
-                    colors="primary:#0b131a,secondary:#747474" style="width:250px;height:250px">
+                    colors="primary:#c01120,secondary:var(--clr-secondary)" style="width:250px;height:250px">
                 </lord-icon>
                 <div class="box_content-hover">
         
@@ -188,7 +187,7 @@
             <div class="box bbr">
         
                 <lord-icon src="https://cdn.lordicon.com/nxaaasqe.json" trigger="loop"
-                    colors="primary:#0b131a,secondary:#747474" style="width:250px;height:250px">
+                    colors="primary:#c01120,secondary:var(--clr-secondary)" style="width:250px;height:250px">
                 </lord-icon>
                 <div class="box_content-hover">
         
@@ -203,129 +202,166 @@
 <!-- heading -->
 
 
-<section class="pricing-sec">
-    <div class="container-pricing">
-        <div class="heading-main-v2 pri-right">
-            <h1>Our Price</h1>
-            <p>we have strict policies for the quality .</p>
-        
-        </div>
-        <div class="price-card-wrapper">
-            <div class="price-card">
-                <h1>
-                    STARTER PACK
-                </h1>
-                <div class="price-content">
-                    <h2>For Small Business</h2>
-                    <ul>
-                        <li>02 cctc cameras</li>
-                        <li>01 security guard</li>
-                        <li>No Physsical Protection</li>
-                        <li>No Security With Dogs</li>
-                        <li>No Changes on Complain</li>
-                    </ul>
-                    <div class="buttons">
-                        <button class="cta-01"><span>Get quote</span></button>
-                    </div>
-
-                </div>
-            </div>
-            <div class="price-card">
-                <h1>
-                    INTERMEDIATE
-                </h1>
-                <div class="price-content">
-                    <h2>For Running Business</h2>
-                    <ul>
-                        <li>02 cctc cameras</li>
-                        <li>01 security guard</li>
-                        <li> Physsical Protection</li>
-                        <li>No Security With Dogs</li>
-                        <li>No Changes on Complain</li>
-                    </ul>
-                    <div class="buttons">
-                        <button class="cta-01"><span>Get quote</button>
-                    </div>
-                </div>
-            </div>
-            <div class="price-card">
-                <h1>
-                    PROFESSIONAL
-                </h1>
-                <div class="price-content">
-                    <h2>For Professional Business</h2>
-                    <ul>
-                        <li>02 cctc cameras</li>
-                        <li>01 security guard</li>
-                        <li>Physsical Protection</li>
-                        <li>Security With Dogs</li>
-                        <li>Changes on Complain</li>
-                    </ul>
-                    <div class="buttons">
-                        <button class="cta-01"><span>Get quote</span></button>
-                    </div>
-
-                </div>
-            </div>
-
-
-        </div>
+<section class="heading-sec">
+    
+    <div class="heading-main-title">
+      <div class="sub-title">
+        <h3>Our Prices are Flexible</h3>
+      </div>
+      <h1>Our Prices</h1>
     </div>
+  </section>
+  <!-- heading end -->
+  
+  <section class="pricing-sec">
+    <div class="container-pricing">
+      <div class="price-card-wrapper">
+        <div class="price-card">
+          <h1>
+            STARTER PACK
+          </h1>
+          <div class="price-content">
+            <h2>For Small Business</h2>
+            <ul>
+              <li><i class="fas fa-check"></i> cctc cameras</li>
+              <li><i class="fas fa-check"></i>01 security guard</li>
+              <li><i class="fas fa-times"> </i>No Physsical Protection</li>
+              <li><i class="fas fa-times"> </i>No Security With Dogs</li>
+              <li><i class="fas fa-times"> </i>No Changes on Complain</li>
+            </ul>
+                        <!-- <div class="buttons">
+                          <button class="cta-01"><span>Get quote</span></button>
+                        </div> -->
 
-</section>
+
+          </div>
+            <a href="#" class="button-sq">Get Quote </a>
+        </div>
+        <div class="price-card">
+          <h1>
+            INTERMEDIATE
+          </h1>
+          <div class="price-content">
+            <h2>For Running Business</h2>
+            <ul>
+              <li><i class="fas fa-check">  </i>02 cctc cameras</li>
+              <li><i class="fas fa-check">  </i>01 security guard</li>
+              <li><i class="fas fa-check">  </i>Physsical Protection</li>
+              <li><i class="fas fa-times">  </i>No Security With Dogs</li>
+              <li><i class="fas fa-times">  </i>No Changes on Complain</li>
+            </ul>
+                        <!-- <div class="buttons">
+                          <button class="cta-01"><span>Get quote</button>
+                        </div> -->
+</div>
+            <a href="#" class="button-sq">Get Quote </a>
+
+        </div>
+        <div class="price-card">
+          <h1>
+            PROFESSIONAL
+          </h1>
+          <div class="price-content">
+            <h2>For Professional Business</h2>
+            <ul>
+              <li><i class="fas fa-check"> </i>02 cctc cameras</li>
+              <li><i class="fas fa-check"> </i>01 security guard</li>
+              <li><i class="fas fa-check"> </i>Physsical Protection</li>
+              <li><i class="fas fa-check"> </i>Security With Dogs</li>
+              <li><i class="fas fa-check"> </i>Changes on Complain</li>
+            </ul>
+                      <!-- <div class="buttons">
+                        <button class="cta-01"><span>Get quote</span></button>
+                      </div> -->
+
+          </div>
+                        <a href="#" class="button-sq">Get Quote </a>
+
+        </div>
+      
+  
+    </div>
+    </div>
+  
+  </section>
 <!-- price end -->
 <!-- our partners -->
-<section class="our-partner-sec">
-    
-    <div class="container-main">
-        <div class="heading-main-v2 client-h">
-            <h1>Our Partners</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, praesentium.</p>
-        
-        </div>
-        <div class="brand-carousel section-padding owl-carousel">
-            <div class="single-logo">
-                <img src="img/client1.png" alt="">
-            </div>
-            <div class="single-logo">
-                <img src="img/client2.png" alt="">
-            </div>
-            <div class="single-logo">
-                <img src="img/client3.png" alt="">
-            </div>
-            <div class="single-logo">
-                <img src="img/client4.png" alt="">
-            </div>
-            <div class="single-logo">
-                <img src="img/client5.png" alt="">
-            </div>
-            <div class="single-logo">
-                <img src="img/client6.png" alt="">
-            </div>
-        </div>
-        
+<section class="heading-sec">
+
+    <div class="heading-main-title">
+      <div class="sub-title">
+        <h3>We are Verified by Govt</h3>
+      </div>
+      <h1>Accreditation</h1>
     </div>
-</section>
+  </section>
+  <section class="accrediations-sec">
+    <div class="container-accre">
+      <div class="accre-wrapper">
+        <div class="arow">
+          <div class="a-card">
+            <img src="img/accre1.png" alt="">
+           
+          </div>
+          <div class="a-card">
+            <img src="img/accre2.png" alt="">
+           
+          </div>
+          <div class="a-card">
+            <img src="img/accre3.png" alt="">
+           
+          </div>
+          <div class="a-card">
+            <img src="img/accre7.png" alt="">
+           
+          </div>
+          <div class="a-card">
+            <img src="img/accre4.png" alt="">
+           
+          </div>
+          <div class="a-card">
+            <img src="img/accre5.png" alt="">
+           
+          </div>
+          <div class="a-card">
+            <img src="img/accre6.png" alt="">
+           
+          </div>
+          <div class="a-card">
+            <img src="img/accre7.png" alt="">
+           
+          </div>
+        </div>
+        
+      
+      </div>
+  
+    </div>
+  </section>
 
 
 <!-- section our policy -->
 <section class="our-policy">
     <div class="container-main">
-    <div class="heading-main-v2">
-        <h1>Our Policy</h1>
-        <p>we have strict policies for the quality .</p>
-    
-    </div>
 
+    <section class="heading-sec">
 
+        <div class="heading2-main-title">
+   <div class="sub-title2">
+         <h3>Best In Town</h3>
+         </div>
+         <h1>OUR POLICY</h1>
+     
+         </div>
+        
+       </section>
+     
     <div class="policy-wrap">
         <div class="policy_top">
         <div class="policy-content">
-            <h1>Lorem ipsum dolor sit.</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                 Sunt at dolorem commodi optio error atque esse eum, iste vitae molestiae quia, cupiditate,
-                  maxime ad iure facere consectetur? Debitis, numquam voluptas!
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nostrum nulla eum quasi numquam est ullam ipsam dolor architecto accusamus?</p>
+            <h1>Our Security Planing</h1>
+            <p> We always provide tested & proven Security security system to our customers. Our best offer give for home security, business security, information security and also give great support. Advertising best quality of access complete visibility along with your device.  
+                 We provide a full range of security solutions, day and night sight to improve security and upgrade capabilities.</p>
         </div>
         <div class="policyimg">
             <img src="img/kala.jpg" alt="">
@@ -334,7 +370,7 @@
         <div class="policy_bottom">
             <div class="policy-i-card">
                 <div class="pol-icon">
-                    <lord-icon src="https://cdn.lordicon.com/dizvjgip.json" trigger="loop" colors="primary:#0b131a,secondary:#747474"
+                    <lord-icon src="https://cdn.lordicon.com/dizvjgip.json" trigger="loop" colors="primary:#FFFFFF,secondary:#FFFFFF"
                         style="width:130px;height:130px;">
                     </lord-icon>
                 </div>
@@ -344,7 +380,7 @@
             </div>
             <div class="policy-i-card">
                 <div class="pol-icon">
-                    <lord-icon src="https://cdn.lordicon.com/kgbqusef.json" trigger="loop" colors="primary:#0b131a,secondary:#747474"
+                    <lord-icon src="https://cdn.lordicon.com/kgbqusef.json" trigger="loop" colors="primary:#FFFFFF,secondary:#FFFFFF"
                         style="width:130px;height:130px;">
                     </lord-icon>
                 </div>
@@ -354,7 +390,7 @@
             </div>
             <div class="policy-i-card">
                 <div class="pol-icon">
-                    <lord-icon src="https://cdn.lordicon.com/rwftanpl.json" trigger="loop" colors="primary:#0b131a,secondary:#747474"
+                    <lord-icon src="https://cdn.lordicon.com/rwftanpl.json" trigger="loop" colors="primary:#FFFFFF,secondary:#FFFFFF"
                         style="width:130px;height:130px;">
                     </lord-icon>
                 </div>

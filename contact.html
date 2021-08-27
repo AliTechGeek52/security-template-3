@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="skin.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="media-query.css">
+    <link rel="stylesheet" href="nav.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
@@ -20,72 +21,60 @@
 <body>
     <!-- navigation -->
 <header>
-
     <nav>
+        <div class="navbar">
+            <i class="fas fa-bars"></i>
+            <div class="logo"><a href="index.html"><img style="width: 80px; height: 80px; margin-bottom: -25px;"
+                        src="img/logo-security.png" alt=""></a></div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <span class="logo-name">Security</span>
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul class="menus">
+                    <li><a class="line" href="index.html">home</a></li>
+                    <li><a class="line" href="#">about</a>
+                        <ul class="sub-menu">
+                            <li><a class="pnt" href="about-us.html">Our Vision</a></li>
+                            <li><a class="pnt" href="about-us.html">Our Experience</a></li>
+                            <li><a class="pnt" href="about-us.html">Our Policies</a></li>
+                            <li><a class="pnt" href="about.html#OurPricing">Our Prices</a></li>
+                            <li><a class="pnt" href="#">Our Accreditations</a></li>
+                            <li><a class="pnt" href="about.html#OurTeam">Our Team</a></li>
+                            <li><a class="pnt" href="about.html#OurPartners">Our Partners</a></li>
 
-        <div class="toggle-menu">
-            <!-- <div><img src="img/securoty_d.png" alt=""></div> -->
-            <input type="checkbox" />
+                        </ul>
 
-            <span></span>
-            <span></span>
-            <span></span>
+                    </li>
+                    <li><a class="line" href="#">services</a>
+                        <ul class="sub-menu">
+                            <li><a class="pnt" href="static-security.html">Static Security</a></li>
+                            <li><a class="pnt" href="Mobile Patrolling.html">Mobile Patrolling</a></li>
+                            <li><a class="pnt" href="cctv monitoring.html">CCTV Monitoring</a></li>
+                            <li><a class="pnt" href="lock-unlock.html">Lock & unlock</a></li>
+                            <li><a class="pnt" href="vacant-unit-checks.html">Vacant Unit Checks</a></li>
+                            <li><a class="pnt" href="Technology-product.html">Technology Product</a></li>
+                            <li><a class="pnt" href="Manned Guading.html">Manned Guarding</a></li>
+                            <li><a class="pnt" href="Support and Managment.html">Support & Management</a></li>
+                            <li><a class="pnt" href="Event Security.html">Event Security</a></li>
+                        </ul>
+                    </li>
 
-            <ul class="menu">
-                <li><a href="index.html"> Home</a></li>
-                <li class="posi"><a href="#"> About </a>
-                    <!-- <i class="fas fa-arrow-right fa-1x"></i> -->
-                    <ul class="menu_sub-menu">
-                        <li><a class="" href="about-us.html#vision">Our Vision</a></li>
-                        <li><a class="" href="about-us.html#service">Our Experience</a></li>
-                        <li><a class="" href="about-us.html#policies">Our Policies</a></li>
-                        <li><a class="" href="about-us.html#prices">Our Prices</a></li>
-                        <li><a class="" href="about-us.html#accred">Our Accreditations</a></li>
-                        <li><a class="" href="about-us.html#team">Our Team</a></li>
-                        <li><a class="" href="about-us.html#partners">Our Partners</a></li>
-                    </ul>
-                </li>
-                <li class="posi"><a href="#"> Services</a>
-                    <ul class="menu_sub-menu">
-                        <li><a class="" href="static-security.html">Static Security</a></li>
-                        <li><a class="" href="Mobile Patrolling.html">Mobile Patrolling</a></li>
-                        <li><a class="" href="cctv monitoring.html">CCTV Monitoring</a></li>
-                        <li><a class="" href="lock-unlock.html">Lock & unlock</a></li>
-                        <li><a class="" href="vacant-unit-checks.html">Vacant Unit Checks</a></li>
-                        <li><a class="" href="Technology-products.html">Technology Product</a></li>
-                        <li><a class="" href="Manned Guading.html">Manned Guarding</a></li>
-                        <li><a class="" href="Support and Managment.html">Support & Management</a></li>
-                        <li><a class="" href="Event Security.html">Event Security</a></li>
-                        <li><a class="" href="Guard House.html">Guard House</a></li>
-                        <li><a class="" href="Surveillance.html">24/7 Surveillance</a></li>
-                    </ul>
-                </li>
-                <li class="posi"><a href="#"> Sectors</a>
-                    <ul class="menu_sub-menu">
-                        <li><a class="" href="construction.html">Construction</a></li>
-                        <li><a class="" href="corporate-sector.html">Corporate</a></li>
-                        <li><a class="" href="industrial-sector.html">Industrial</a></li>
-                        <li><a class="" href="retail-sector.html">Retail</a></li>
-                        <li><a class="" href="logistics-sector.html">Logistics</a></li>
-                        <li><a class="" href="property-management-sector.html">Property Management</a></li>
-
-                    </ul>
-                </li>
-                <li><a href="index.html"> Contact </a></li>
-            </ul>
-        </div>
-        <div class="logo-top">
-            <a href="index.html">
-                <img style="width: 100px; height: 100px;" src="img/securoty_d_1.png" alt="">
-            </a>
-        </div>
-        <div class="head-icons">
-            <lord-icon src="https://cdn.lordicon.com/cgwdruiv.json" trigger="loop"
-                colors="primary:#ebebeb,secondary:#ebebeb" style="width:60px;height:60px">
-            </lord-icon>
-            <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="loop"
-                colors="primary:#ebebeb,secondary:#ebebeb" style="width:60px;height:60px">
-            </lord-icon>
+                    <li><a class="line" href="contact.html">contact us</a></li>
+                    <li><a href="#">
+                            <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="hover"
+                                colors="primary:#000000,secondary:#c01120" style="width:40px;height:40px">
+                            </lord-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <lord-icon src="https://cdn.lordicon.com/slkvcfos.json" trigger="hover"
+                                colors="primary:#000000,secondary:#c01120" style="width:50px;height:50px">
+                            </lord-icon>
+                        </a></li>
+                    <li><a class="contact-btn" href="#"><span><i class="fas fa-phone-alt"></i></span> 020 7946 0020</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 </header>
@@ -97,7 +86,7 @@
             <h1>Contact Us</h1>
             <div class="dash"></div>
         </div>
-        <img src="img/banners/contactusbanner.png" alt="">
+        <img src="img/gPeonv.jpg" alt="">
     </section>
 
 <!-- contact form -->
@@ -107,19 +96,20 @@
             <div class="contact-info">
                 <div class="c-info">
                   <div class="icon-head">
-                    <lord-icon src="https://cdn.lordicon.com/xtkehzkm.json" trigger="loop" colors="primary:#ebebeb,secondary:#747474"
+                    <lord-icon src="https://cdn.lordicon.com/xtkehzkm.json" trigger="loop" colors="primary:#FFFFFF,secondary:#FFFFFF"
                         style="width:70px;height:70px"></lord-icon>
-                    <h1>> Address </h1>
+                    <h1> Address </h1>
                    </div>
-                   <p>London Office
+                   <div class="separator-one"></div>
+                   <p class="paragraph">London Office
                     <br>
                     418-426 Lewisham High Street, SE13 6LJ
                     </p>
-                    <p>Birmingham Office
+                    <p class="paragraph">Birmingham Office
                     <br>
                     3 Brindley Place, B1 2JB
                     </p>
-                    <p>Manchester Office
+                    <p class="paragraph">Manchester Office
                     <br>
                     Chancery Place, 50 Brown Street, M2 2JG
                     </p>
@@ -128,45 +118,53 @@
                 </div>
                 <div class="c-info">
                 <div class="icon-head">
-                    <lord-icon src="https://cdn.lordicon.com/ltxkhbfa.json" trigger="loop" colors="primary:#ebebeb,secondary:#747474"
+                    <lord-icon src="https://cdn.lordicon.com/ltxkhbfa.json" trigger="loop" colors="primary:#FFFFFF,secondary:#FFFFFF"
                         style="width:70px;height:70px">
                     </lord-icon> 
-                    <h1>> Phone </h1>
+                    <h1> Phone </h1>
+                  
                 </div>
-                <p>London: 020 8690 1903
+                <div class="separator-one"></div>
+                <p class="paragraph">London: 020 8690 1903
                    
                 </p>
-                <p>Birmingham: 0121 824 1075
+                <p class="paragraph">Birmingham: 0121 824 1075
                     </p>
-                <p>Birmingham: 0121 824 1076
+                <p class="paragraph">Birmingham: 0121 824 1076
                 </p>
-                <p>Manchester: 0161 511 3397
+                <p class="paragraph">Manchester: 0161 511 3397
                 </p>
-                <p>Manchester: 0161 511 3398
+                <p class="paragraph">Manchester: 0161 511 3398
                 </p>
                 
 
                 </div>
                 <div class="c-info">
                 <div class="icon-head">
-                    <lord-icon src="https://cdn.lordicon.com/jshbewmb.json" trigger="loop" colors="primary:#ebebeb,secondary:#747474"
+                    <lord-icon src="https://cdn.lordicon.com/jshbewmb.json" trigger="loop" colors="primary:#FFFFFF,secondary:#FFFFFF"
                         style="width:70px;height:70px">
                     </lord-icon>
                     </lord-icon> 
-                    <h1>> Email </h1>
+                    <h1> Email </h1>
                 </div>
-                <p>info@critrixconsultancy.com</p>
+                <div class="separator-one"></div>
+                <p class="paragraph">info@critrixconsultancy.com</p>
                   
                 
 
                 </div>
             </div>
             <div class="contact-form">
-                <div class="heading-main-v2">
-                    <h1>Contact Us</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, praesentium.</p>
-                
-                </div>
+                <section class="heading-sec">
+
+                    <div class="heading2-main-title">
+               <div class="sub-title2">
+                     <h3>Best In Town</h3>
+                     </div>
+                     <h1>CONTACT</h1>
+                     </div>
+                   </section>
+        
                 <div class="form-c">
                     <form action="index.html">
                         <div class="flex">
@@ -181,7 +179,7 @@
                             <textarea class="input-f" type="text" placeholder="Message" ></textarea>
                         </div>
                         <div class="buttons pad">
-                            <button class="cta-01"><span>Get quote</span></button>
+                            <a href="#" class="button-sqr">Read More</a>
                         </div>
 
 
@@ -198,11 +196,15 @@
                 <img src="img/news1.jpg" alt="">
             </div>
             <div class="feed-content">
-                <div class="heading-main-v2">
-                    <h1>Contact Us</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, praesentium.</p>
-                
-                </div>
+                <section class="heading-sec">
+
+                    <div class="heading2-main-title">
+               <div class="sub-title2">
+                     <h3>Best In Town</h3>
+                     </div>
+                     <h1>CONTACT</h1>
+                     </div>
+                   </section>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                      Expedita obcaecati debitis earum dolore alias veniam, vitae sint, 
                      ad nesciunt dicta molestias labore accusantium! Ab nam illo dolores 
@@ -214,7 +216,7 @@
                         quos hic impedit saepe praesentium! Harum quasi cum odio quidem esse rem eligendi
                         nemo hic neque sed voluptatibus mollitia veniam iure, est amet.</p>
                         <div class="buttons">
-                            <button class="cta-01"><span>Feedback</span></button>
+                            <a href="#" class="button-sqr">Feed Back</a>
                         </div>
             </div>
         </div>
