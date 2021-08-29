@@ -323,6 +323,18 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+  .testimonials-side-content{
+    display: none;
+  }
+
+  .flex__content2{
+    width: 100%;
+  }
+
+  .text--big{
+    font-size: 60px !important;
+  }
   .flex2 {
     flex-direction: column;
   }
@@ -334,7 +346,7 @@
     font-size: 35px;
   }
   .text--sub {
-    font-size: 16px;
+    font-size: 28px;
   }
   .content-serv-img-inner {
     padding: 100px 40px;
@@ -595,9 +607,7 @@
   }
 
   /* news */
-  .news-card img {
-    width: 250px;
-  }
+
   .contain-news {
     padding: 24px 0px;
   }
@@ -1032,9 +1042,7 @@
   }
 
   /* news */
-  .news-card img {
-    width: 250px;
-  }
+ 
   .contain-news {
     padding: 24px 0px;
   }

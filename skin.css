@@ -316,7 +316,7 @@ pri-right {
 }
 .form-wrap {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .c-info p {
   font-size: 15px;
@@ -330,15 +330,20 @@ pri-right {
     rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px,
     rgb(0 0 0 / 9%) 0px -3px 5px;
   backdrop-filter: blur(5px);
+  width:40em;
+}
+.flex
+{
+  display: flex;
 }
 .input-f {
   width: 100%;
   border: none;
-  margin: 10px;
+  margin: 5px;
   height: 30px;
   background-color: transparent;
   font-size: 20px;
-  padding: 40px;
+  padding: 70px;
   border-bottom: 2px solid var(--clr-red-new);
   color: white;
 }
